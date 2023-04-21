@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 
 import introduction from "../lib/introduction.js";
-import quiz from "../lib/quiz.js";
+import quizSelector from "../lib/quiz.js";
 
 introduction();
 setTimeout(() => {
-  quiz();
+  quizSelector();
 }, 500);
